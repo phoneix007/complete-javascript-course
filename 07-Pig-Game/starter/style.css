@@ -63,6 +63,22 @@ main {
   margin-bottom: auto;
 }
 
+.final-score{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top:520px;
+  color:#555;
+  font-size: 18px;
+  font-family: 'lato';
+  text-align: center;
+  padding: 10px;
+  width:160px;
+}
+.final-score:focus{
+  outline: none;
+}
+
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
